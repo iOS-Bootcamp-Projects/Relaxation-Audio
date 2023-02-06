@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1A9C5B294A474100C44886 /* SCLAlertView in Frameworks */ = {isa = PBXBuildFile; productRef = 3F1A9C5A294A474100C44886 /* SCLAlertView */; };
+		3F900DFB2949106B00005C0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F900DFA2949106B00005C0E /* AppDelegate.swift */; };
+		3F900DFD2949106B00005C0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F900DFC2949106B00005C0E /* SceneDelegate.swift */; };
+		3F900DFF2949106B00005C0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F900DFE2949106B00005C0E /* ViewController.swift */; };
+		3F900E022949106B00005C0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F900E002949106B00005C0E /* Main.storyboard */; };
+		3F900E042949106E00005C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F900E032949106E00005C0E /* Assets.xcassets */; };
+		3F900E072949106E00005C0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F900E052949106E00005C0E /* LaunchScreen.storyboard */; };
+		3F900E122949106E00005C0E /* Relaxation_AudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F900E112949106E00005C0E /* Relaxation_AudioTests.swift */; };
+		3F900E1C2949106E00005C0E /* Relaxation_AudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F900E1B2949106E00005C0E /* Relaxation_AudioUITests.swift */; };
+		3F900E1E2949106E00005C0E /* Relaxation_AudioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F900E1D2949106E00005C0E /* Relaxation_AudioUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F900E0E2949106E00005C0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F900DEF2949106B00005C0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F900DF62949106B00005C0E;
+			remoteInfo = "Relaxation Audio";
+		};
+		3F900E182949106E00005C0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F900DEF2949106B00005C0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F900DF62949106B00005C0E;
+			remoteInfo = "Relaxation Audio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F900DF72949106B00005C0E /* Relaxation Audio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Relaxation Audio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F900DFA2949106B00005C0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F900DFC2949106B00005C0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F900DFE2949106B00005C0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F900E012949106B00005C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F900E032949106E00005C0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F900E062949106E00005C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F900E082949106E00005C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F900E0D2949106E00005C0E /* Relaxation AudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Relaxation AudioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F900E112949106E00005C0E /* Relaxation_AudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relaxation_AudioTests.swift; sourceTree = "<group>"; };
+		3F900E172949106E00005C0E /* Relaxation AudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Relaxation AudioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F900E1B2949106E00005C0E /* Relaxation_AudioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relaxation_AudioUITests.swift; sourceTree = "<group>"; };
+		3F900E1D2949106E00005C0E /* Relaxation_AudioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relaxation_AudioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F900DF42949106B00005C0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1A9C5B294A474100C44886 /* SCLAlertView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F900E0A2949106E00005C0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F900E142949106E00005C0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F900DEE2949106B00005C0E = {
+			isa = PBXGroup;
+			children = (
+				3F900DF92949106B00005C0E /* Relaxation Audio */,
+				3F900E102949106E00005C0E /* Relaxation AudioTests */,
+				3F900E1A2949106E00005C0E /* Relaxation AudioUITests */,
+				3F900DF82949106B00005C0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F900DF82949106B00005C0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F900DF72949106B00005C0E /* Relaxation Audio.app */,
+				3F900E0D2949106E00005C0E /* Relaxation AudioTests.xctest */,
+				3F900E172949106E00005C0E /* Relaxation AudioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F900DF92949106B00005C0E /* Relaxation Audio */ = {
+			isa = PBXGroup;
+			children = (
+				3F900DFA2949106B00005C0E /* AppDelegate.swift */,
+				3F900DFC2949106B00005C0E /* SceneDelegate.swift */,
+				3F900DFE2949106B00005C0E /* ViewController.swift */,
+				3F900E002949106B00005C0E /* Main.storyboard */,
+				3F900E032949106E00005C0E /* Assets.xcassets */,
+				3F900E052949106E00005C0E /* LaunchScreen.storyboard */,
+				3F900E082949106E00005C0E /* Info.plist */,
+			);
+			path = "Relaxation Audio";
+			sourceTree = "<group>";
+		};
+		3F900E102949106E00005C0E /* Relaxation AudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F900E112949106E00005C0E /* Relaxation_AudioTests.swift */,
+			);
+			path = "Relaxation AudioTests";
+			sourceTree = "<group>";
+		};
+		3F900E1A2949106E00005C0E /* Relaxation AudioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F900E1B2949106E00005C0E /* Relaxation_AudioUITests.swift */,
+				3F900E1D2949106E00005C0E /* Relaxation_AudioUITestsLaunchTests.swift */,
+			);
+			path = "Relaxation AudioUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F900DF62949106B00005C0E /* Relaxation Audio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F900E212949106E00005C0E /* Build configuration list for PBXNativeTarget "Relaxation Audio" */;
+			buildPhases = (
+				3F900DF32949106B00005C0E /* Sources */,
+				3F900DF42949106B00005C0E /* Frameworks */,
+				3F900DF52949106B00005C0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Relaxation Audio";
+			packageProductDependencies = (
+				3F1A9C5A294A474100C44886 /* SCLAlertView */,
+			);
+			productName = "Relaxation Audio";
+			productReference = 3F900DF72949106B00005C0E /* Relaxation Audio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F900E0C2949106E00005C0E /* Relaxation AudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F900E242949106E00005C0E /* Build configuration list for PBXNativeTarget "Relaxation AudioTests" */;
+			buildPhases = (
+				3F900E092949106E00005C0E /* Sources */,
+				3F900E0A2949106E00005C0E /* Frameworks */,
+				3F900E0B2949106E00005C0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F900E0F2949106E00005C0E /* PBXTargetDependency */,
+			);
+			name = "Relaxation AudioTests";
+			productName = "Relaxation AudioTests";
+			productReference = 3F900E0D2949106E00005C0E /* Relaxation AudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F900E162949106E00005C0E /* Relaxation AudioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F900E272949106E00005C0E /* Build configuration list for PBXNativeTarget "Relaxation AudioUITests" */;
+			buildPhases = (
+				3F900E132949106E00005C0E /* Sources */,
+				3F900E142949106E00005C0E /* Frameworks */,
+				3F900E152949106E00005C0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F900E192949106E00005C0E /* PBXTargetDependency */,
+			);
+			name = "Relaxation AudioUITests";
+			productName = "Relaxation AudioUITests";
+			productReference = 3F900E172949106E00005C0E /* Relaxation AudioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F900DEF2949106B00005C0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					3F900DF62949106B00005C0E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					3F900E0C2949106E00005C0E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 3F900DF62949106B00005C0E;
+					};
+					3F900E162949106E00005C0E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 3F900DF62949106B00005C0E;
+					};
+				};
+			};
+			buildConfigurationList = 3F900DF22949106B00005C0E /* Build configuration list for PBXProject "Relaxation Audio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F900DEE2949106B00005C0E;
+			packageReferences = (
+				3F1A9C59294A474100C44886 /* XCRemoteSwiftPackageReference "SCLAlertView-Swift" */,
+			);
+			productRefGroup = 3F900DF82949106B00005C0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F900DF62949106B00005C0E /* Relaxation Audio */,
+				3F900E0C2949106E00005C0E /* Relaxation AudioTests */,
+				3F900E162949106E00005C0E /* Relaxation AudioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F900DF52949106B00005C0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F900E072949106E00005C0E /* LaunchScreen.storyboard in Resources */,
+				3F900E042949106E00005C0E /* Assets.xcassets in Resources */,
+				3F900E022949106B00005C0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F900E0B2949106E00005C0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F900E152949106E00005C0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F900DF32949106B00005C0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F900DFF2949106B00005C0E /* ViewController.swift in Sources */,
+				3F900DFB2949106B00005C0E /* AppDelegate.swift in Sources */,
+				3F900DFD2949106B00005C0E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F900E092949106E00005C0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F900E122949106E00005C0E /* Relaxation_AudioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F900E132949106E00005C0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F900E1E2949106E00005C0E /* Relaxation_AudioUITestsLaunchTests.swift in Sources */,
+				3F900E1C2949106E00005C0E /* Relaxation_AudioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F900E0F2949106E00005C0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F900DF62949106B00005C0E /* Relaxation Audio */;
+			targetProxy = 3F900E0E2949106E00005C0E /* PBXContainerItemProxy */;
+		};
+		3F900E192949106E00005C0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F900DF62949106B00005C0E /* Relaxation Audio */;
+			targetProxy = 3F900E182949106E00005C0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F900E002949106B00005C0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F900E012949106B00005C0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F900E052949106E00005C0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F900E062949106E00005C0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F900E1F2949106E00005C0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F900E202949106E00005C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F900E222949106E00005C0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Relaxation Audio/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aamer-Essa.Relaxation-Audio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F900E232949106E00005C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Relaxation Audio/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aamer-Essa.Relaxation-Audio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F900E252949106E00005C0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aamer-Essa.Relaxation-AudioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Relaxation Audio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Relaxation Audio";
+			};
+			name = Debug;
+		};
+		3F900E262949106E00005C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aamer-Essa.Relaxation-AudioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Relaxation Audio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Relaxation Audio";
+			};
+			name = Release;
+		};
+		3F900E282949106E00005C0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aamer-Essa.Relaxation-AudioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Relaxation Audio";
+			};
+			name = Debug;
+		};
+		3F900E292949106E00005C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aamer-Essa.Relaxation-AudioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Relaxation Audio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F900DF22949106B00005C0E /* Build configuration list for PBXProject "Relaxation Audio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F900E1F2949106E00005C0E /* Debug */,
+				3F900E202949106E00005C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F900E212949106E00005C0E /* Build configuration list for PBXNativeTarget "Relaxation Audio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F900E222949106E00005C0E /* Debug */,
+				3F900E232949106E00005C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F900E242949106E00005C0E /* Build configuration list for PBXNativeTarget "Relaxation AudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F900E252949106E00005C0E /* Debug */,
+				3F900E262949106E00005C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F900E272949106E00005C0E /* Build configuration list for PBXNativeTarget "Relaxation AudioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F900E282949106E00005C0E /* Debug */,
+				3F900E292949106E00005C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3F1A9C59294A474100C44886 /* XCRemoteSwiftPackageReference "SCLAlertView-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vikmeup/SCLAlertView-Swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3F1A9C5A294A474100C44886 /* SCLAlertView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F1A9C59294A474100C44886 /* XCRemoteSwiftPackageReference "SCLAlertView-Swift" */;
+			productName = SCLAlertView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3F900DEF2949106B00005C0E /* Project object */;
+}
